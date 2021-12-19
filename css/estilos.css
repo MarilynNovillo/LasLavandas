@@ -23,6 +23,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffea73;
+  width: 100%;
 }
 
 .log {
@@ -35,7 +36,7 @@ h1 {
 }
 
 nav {
-  width: 50%;
+  width: 100%;
 }
 
 .navbar-dark {
@@ -73,6 +74,31 @@ nav {
 a {
   text-decoration: none;
   color: darkslateblue;
+}
+
+@media only screen and (max-width: 560px) {
+  header {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #ffea73;
+    width: 100%;
+  }
 }
 
 /*INICIO*/
@@ -255,10 +281,10 @@ h3 {
           align-items: baseline;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .potImgg {
@@ -317,5 +343,10 @@ h3 {
 
 .footer--style {
   background-color: olive;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=estilos.css.map */
