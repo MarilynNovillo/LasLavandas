@@ -6,13 +6,15 @@ header{
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(255, 234, 115);
 }
 
 .log{
-width: 10%;
+width: 30vh;
+padding-right: 30px;
+
 }
 
 h1{
@@ -32,7 +34,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
-     
 }
 
 .bg-dark{
