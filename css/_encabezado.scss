@@ -1,29 +1,32 @@
 
 
 header{
-    padding-right: 30px ;
-    padding-left: 30px;
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 234, 115);
+    background-color: rgb(222, 248, 222);
     width: 100%;
-
-   
-
 }
 
 .log{
 width: 30vh;
+height: auto;
 padding-right: 20px;
+background-image: url(css/img/logo.png);
+background-color: white;
+padding-left: 10px;
 
 }
 
+/*.logImg{
+    width: 30vh;
+}*/
+
 h1{
     font-size: 50px;
+    color: black;
     
 }
 
@@ -42,7 +45,7 @@ nav{
 }
 
 .bg-dark{
-    background-color: rgb(255, 234, 115) !important;
+    background-color:rgb(222, 248, 222) !important;
 }
 
 .navbar-dark .navbar-brand{

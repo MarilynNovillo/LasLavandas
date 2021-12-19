@@ -2,23 +2,34 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+   /* align-items: center;
     align-content: center;
-    align-items: baseline;
+    align-items: center;*/
     margin: 30px 60px 30px 60px;
+    text-align: center;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
 }
+
+.grad{
+    background-image: linear-gradient(WHITE, rgb(148, 218, 171), rgb(54, 212, 107));
+    background-image: linear-gradient(135deg, WHITE 20%, rgb(189, 218, 198), rgb(54, 212, 107));
+    border: black solid;
+}
+
 
 @each $planta in pot , lav , bamb , ros , cala , aza {
     .#{$planta}Imgg{
         border: 2px solid cornsilk;
         width: 40vh;
         height: auto;
-        padding: 10px 50px 10px 50px;
+        padding: 20px 50px 10px 50px;
+        margin-top: 10px;
     }
 }
 

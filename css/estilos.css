@@ -6,9 +6,6 @@
 }
 
 header {
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,17 +21,25 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffea73;
+  background-color: #def8de;
   width: 100%;
 }
 
 .log {
   width: 30vh;
+  height: auto;
   padding-right: 20px;
+  background-image: url(css/img/logo.png);
+  background-color: white;
+  padding-left: 10px;
 }
 
+/*.logImg{
+    width: 30vh;
+}*/
 h1 {
   font-size: 50px;
+  color: black;
 }
 
 nav {
@@ -57,7 +62,7 @@ nav {
 }
 
 .bg-dark {
-  background-color: #ffea73 !important;
+  background-color: #def8de !important;
 }
 
 .navbar-dark .navbar-brand {
@@ -161,7 +166,7 @@ p {
   padding: 10px 30px 10px 30px;
 }
 
-h3 {
+.cons {
   text-align: center;
   font-size: 30px;
 }
@@ -275,66 +280,76 @@ h3 {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* align-items: center;
+    align-content: center;
+    align-items: center;*/
   margin: 30px 60px 30px 60px;
+  text-align: center;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.grad {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(WHITE), color-stop(#94daab), to(#36d46b));
+  background-image: linear-gradient(WHITE, #94daab, #36d46b);
+  background-image: linear-gradient(135deg, WHITE 20%, #bddac6, #36d46b);
+  border: black solid;
 }
 
 .potImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 .lavImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 .bambImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 .rosImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 .calaImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 .azaImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 10px 50px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 576px) {
