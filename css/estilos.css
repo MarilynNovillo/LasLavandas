@@ -252,7 +252,12 @@ h3 {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  /*display: grid;*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .potImgg {
@@ -270,6 +275,27 @@ h3 {
 }
 
 .bambImgg {
+  border: 2px solid cornsilk;
+  width: 40vh;
+  height: auto;
+  padding: 10px 50px 10px 50px;
+}
+
+.rosImgg {
+  border: 2px solid cornsilk;
+  width: 40vh;
+  height: auto;
+  padding: 10px 50px 10px 50px;
+}
+
+.calaImgg {
+  border: 2px solid cornsilk;
+  width: 40vh;
+  height: auto;
+  padding: 10px 50px 10px 50px;
+}
+
+.azaImgg {
   border: 2px solid cornsilk;
   width: 40vh;
   height: auto;

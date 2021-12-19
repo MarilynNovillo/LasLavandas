@@ -5,10 +5,12 @@
     justify-content: space-around;
     align-items: baseline;
 
-    /*display: grid;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-@each $planta in pot , lav , bamb {
+@each $planta in pot , lav , bamb , ros , cala , aza {
     .#{$planta}Imgg{
         border: 2px solid cornsilk;
         width: 40vh;
