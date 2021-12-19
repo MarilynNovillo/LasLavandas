@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Las Lavandas|🌸 </title>
+</head>
+
+<body>
+    <header>
+
+        <!--LOGO-->
+        <img class="log" src="css/img/logo.png" alt="logo">
+        <h1>Las Lavandas</h1>
+
+        <!--MENU-->
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#header">Inicio</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- INICIO-->
+
+        <div class="inic">
+            <h2 class="tituloInic">¿Como saber si su jardín esta en buenas manos? <br>
+                Las Lavandas 10 años brindando servicios</em>
+            </h2>
+        </div>
+
+        <!--NOSOTROS-->
+
+        <div class="contenedor" id="nosotros">
+            <h2 class="titulo"> Nosotros </h2>
+
+            <p class="letra">Los griegos fueron los primeros en utilizarlas como fragancia, para ellos era simbolo de la elegancia.
+                Los egipcios hacíán con ella maquillaje, para ellos significaba bellaza. Los romanos rendían tributo con
+                ella, a su diosa del hogar y a la de la espiritualidad, como simbolo de pureza. Estos, son algunos de
+                los valores con los que nos comprometimos al elegir este nombre. <br>
+                Nuestro principal interés es que, por el mejor precio, usted pueda tener ese bello espacio con el que
+                tanto sueña; ya sea con nuestroasesoramiento o con nuestra participación. Estamos aquí para ayudarle a
+                resolver cualquier tipo de problema. <br> <br> <br>
+            </p>
+
+            <img class="serv" src="css/img/carrousel/serv2.png" alt="">
+
+            <h3>Su consulta no molesta</h3>
+        </div>
+
+        <!--SERVICIOS-->
+
+        <div class="seContenedor" id="servicios">
+            <h2 class="titulo">Nuestros servicios</h2>
+
+            <p>
+                Nos dedicamos a la jardineria en cualquier tipo de espacio verde,
+                desde pequeños jardines hasta grandes parques. Tenemos la experiencia
+                y los conocimientos para diseñar, construir y mantener cualquier tipo
+                de espacio verde
+            </p>
+
+
+
+
+            <div class="carro">
+                <div id="demo" class=" carro carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="css/img/carrousel/serv4.png" alt="pileta">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css/img/carrousel/serv5.png" alt="hiedra">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css/img/carrousel/serv6.png" alt="terraza">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!--CONTACTO    -->
+
+        <form class="contac" id="contacto" action="">
+            <fieldset id="formulario">
+                <legend>¿En que te podemos ayudar?</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                </div>
+                <div>
+                    <label for="tel">Telefono</label>
+                    <input type="number" name="tel" id="tel" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="contactar">Contacto via</label>
+                    <select name="contactar" id="contactar" required>
+                        <option value="w">Mensaje por What's app</option>
+                        <option value="e">E-mail</option>
+                        <option value="l">Llamada</option>
+                        <option value="m">Mensaje de Texto</option>
+                        <option value="o">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="consulta">Consulta</label> <br>
+                    <textarea name="consulta" id="consulta" cols="30" rows="5" required></textarea>
+                </div>
+                <div>
+                    <label for="promo">Deseo recibir promociones </label>
+                    <input type="checkbox" name="promo" id="promo">
+                </div>
+                <div>
+                    <button type="reset">Borrar todo</button>
+                    <button type="submit">Enviar consulta</button>
+                </div>
+            </fieldset>
+        </form>
+
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer--style">
+        <b>Mapa del sitio </b>
+        <ol>
+            <li><a>Inicio</a></li>
+            <li><a>Nosotros</a></li>
+            <li><a>Servicio</a></li>
+            <ul>
+                <li><a>Nuestros Productos</a></li>
+            </ul>
+            <li><a>Contacto</a></li>
+        </ol><br>
+        <a href="#header">Subir</a>
+    </footer>
+
+    <!--BOOTSTRAP-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
