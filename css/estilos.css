@@ -98,7 +98,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #ffea73;
+    background-color: #def8de;
     width: 100%;
   }
   .log {
@@ -125,6 +125,8 @@ a {
 .tituloInic {
   font-size: 40px;
   text-align: center;
+  color: #d5d0ef;
+  -webkit-text-stroke: 2px black;
 }
 
 /*NOSOTROS Y SERVICIOS CONTENEDORES Y TIPOGRAFIA*/
@@ -133,7 +135,7 @@ a {
   padding: 30px 20px;
   border: black groove;
   border-radius: 10px;
-  background-color: yellowgreen;
+  background-color: #8cdda7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +203,7 @@ p {
     padding: 30px 20px;
     border: black groove;
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: #36d46b;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -283,9 +285,6 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /* align-items: center;
-    align-content: center;
-    align-items: center;*/
   margin: 30px 60px 30px 60px;
   text-align: center;
   display: -ms-grid;
@@ -298,8 +297,6 @@ p {
 }
 
 .grad {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(WHITE), color-stop(#94daab), to(#36d46b));
-  background-image: linear-gradient(WHITE, #94daab, #36d46b);
   background-image: linear-gradient(135deg, WHITE 20%, #bddac6, #36d46b);
   border: black solid;
 }
@@ -382,7 +379,7 @@ p {
   margin: 40px 40px 40px 40px;
   padding: 30px 20px 20px 50px;
   border: black solid;
-  background-color: yellowgreen;
+  background-color: #8cdda7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,11 +388,13 @@ p {
 }
 
 .footer--style {
-  background-color: olive;
+  background-color: #def8de;
   width: 100%;
+  border: black 2px;
 }
 
-a {
+.footLet {
   text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
