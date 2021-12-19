@@ -2,7 +2,25 @@
     background-color: rgb(222, 248, 222);
     width: 100%;
     border: black 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.wpp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
 .footLet{
     text-decoration: none;
     color: black;

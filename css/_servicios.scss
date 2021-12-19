@@ -1,6 +1,8 @@
 .carro{
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    align-content: center;
     
 }
 .carousel img{
@@ -10,11 +12,11 @@
 
 }
 
-
 @media only screen and (max-width: 767px) {
     .carousel img{
         height: 40vh;
     }
+
 .carousel-indicators {
     margin-right: 30%;
 }
