@@ -29,7 +29,6 @@ header {
   width: 30vh;
   height: auto;
   padding-right: 20px;
-  background-image: url(css/img/logo.png);
   background-color: #def8de;
   padding-left: 10px;
 }
@@ -39,6 +38,7 @@ h1 {
   color: black;
 }
 
+/*BARRA DE NAVEGACION*/
 nav {
   width: 50%;
 }
@@ -52,8 +52,8 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: 20px;
   text-align: left;
 }
@@ -75,6 +75,7 @@ a {
   color: darkslateblue;
 }
 
+/*MEDIA*/
 @media only screen and (max-width: 576px) {
   header {
     padding-right: 30px;
@@ -171,6 +172,7 @@ p {
 .cons {
   text-align: center;
   font-size: 30px;
+  padding-top: 30px;
 }
 
 .serv {
@@ -195,6 +197,7 @@ p {
   width: 100%;
 }
 
+/*MEDIA*/
 @media only screen and (max-width: 992px) {
   .seContenedor {
     -ms-flex-wrap: wrap;
@@ -243,10 +246,6 @@ p {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-  .seContenedor {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
   p {
     font-size: 20px;
     text-align: justify;
@@ -290,12 +289,19 @@ p {
   height: 60vh;
 }
 
-@media only screen and (max-width: 767px) {
+.carousel-inner img {
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
   .carousel img {
     height: 40vh;
   }
-  .carousel-indicators {
-    margin-right: 30%;
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel img {
+    height: 40vh;
   }
 }
 

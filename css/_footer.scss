@@ -1,4 +1,4 @@
-.footer--style{
+.footer--style {
     background-color: rgb(222, 248, 222);
     width: 100%;
     border: black 2px;
@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-.wpp{
+.wpp {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -17,12 +17,11 @@
     margin-right: 20px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footLet{
+.footLet {
     text-decoration: none;
     color: black;
 }
-

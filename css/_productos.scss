@@ -1,4 +1,4 @@
-.prod{
+.prod {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -13,14 +13,19 @@
 
 }
 
-.grad{
+.grad {
     background-image: linear-gradient(135deg, WHITE 20%, rgb(189, 218, 198), rgb(54, 212, 107));
     border: black solid;
 }
 
 
-@each $planta in pot , lav , bamb , ros , cala , aza {
-    .#{$planta}Imgg{
+@each $planta in pot,
+lav,
+bamb,
+ros,
+cala,
+aza {
+    .#{$planta}Imgg {
         border: 2px solid cornsilk;
         width: 40vh;
         height: auto;
@@ -29,9 +34,8 @@
     }
 }
 
-@media only screen and (max-width: 576px)
-{
-    .prod{
+@media only screen and (max-width: 576px) {
+    .prod {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -40,5 +44,5 @@
         align-content: center;
         align-items: baseline;
         margin: 30px 60px 30px 60px;
-}
+    }
 }
