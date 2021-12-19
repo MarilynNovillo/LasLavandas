@@ -1,29 +1,22 @@
 .carro{
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     
 }
 .carousel img{
-    object-fit:contain;
+    object-fit:cover;
     object-position: center;
     height: 60vh;
+
 }
+
 
 @media only screen and (max-width: 767px) {
-
     .carousel img{
-        object-fit: contain;
-        object-position: center;
         height: 40vh;
     }
-
+.carousel-indicators {
+    margin-right: 30%;
 }
-
-@media only screen and (max-width: 360px) {
-    .carousel img{
-        object-fit: contain;
-        object-position: center;
-        height: 20vh;
-    }
 
 }
