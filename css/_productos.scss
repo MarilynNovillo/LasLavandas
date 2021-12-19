@@ -1,9 +1,12 @@
 .prod{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     align-items: baseline;
+    margin: 30px 60px 30px 60px;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -17,4 +20,18 @@
         height: auto;
         padding: 10px 50px 10px 50px;
     }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .prod{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-items: baseline;
+        margin: 30px 60px 30px 60px;
+}
 }
